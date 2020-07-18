@@ -3,7 +3,7 @@
 
 This is a Capstone Project for 2002-USD-CYBER Fullstack Academy Cohort
 
-Contributors: Alecks Topacio, Alex Jensen, Patrick Ho
+Contributors: Alecks Topacio (ARTopacio89), Alex Jensen (Jensen-A), Patrick Ho (pshoxxx)
 
 Project Name: Fancy Advanced Recon Tool
 
