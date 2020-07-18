@@ -53,3 +53,7 @@ def common_scanner():
 
     # Printing the information to screen
     print('Scanning Completed in: ', total)
+
+common_scanner()
+
+
