@@ -8,7 +8,7 @@ from datetime import datetime
 # Clear up the screen
 subprocess.call('clear', shell=True)
 
-def common_scanner():
+def common_port_scanner():
     # Ask for input
     remoteServer    = input("Enter a remote host to scan: ")
     remoteServerIP  = socket.gethostbyname(remoteServer)
@@ -57,7 +57,7 @@ def common_scanner():
 # common_scanner()
 
 # Function to scan ranges of ports
-def custom_scanner():
+def custom__port_scanner():
 
 # Add two variables to specify ranges of ports to scan
 
