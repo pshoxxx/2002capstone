@@ -14,7 +14,7 @@ def scanner_menu():
     if how_many == "1":
         # Ask how many ports will they be scanning
         print("Which ports will you be scanning?")
-        print("1. Common ports (1-1024")
+        print("1. Common ports (1-1024)")
         print("2. Custom range")
         how_many2 = input("Please enter a selection. ")
         # Redirect to appropriate functions
@@ -24,6 +24,7 @@ def scanner_menu():
             custom_port_scanner()
     elif how_many == "2":
         # Redirect to appropriate function (custom ip function)
+        custom_ip_scan()
     # Return to main menu
     elif how_many == "3":
         main_menu()    
@@ -52,7 +53,7 @@ def tool_shodan():
 def web_tools_menu():
     # Print out menu layout and options
     print("-" * 60)
-    print("Web tools")
+    print("{:^60}".format("Web tools"))
     print("-" * 60)
     print("1. Google Dorking")
     print("2. Netcraft")
@@ -77,7 +78,7 @@ def web_tools_menu():
 def main_menu():
     # Print out layout for menu
     print("-" * 60)
-    print("Welcome to Fancy Advanced Recon Tool")
+    print("{:^60}".format("Welcome to Fancy Advanced Recon Tool"))
     print("-" * 60)
     print("1. Port Scan")
     print("2. Web Tools")
