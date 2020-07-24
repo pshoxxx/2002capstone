@@ -57,7 +57,7 @@ def common_port_scanner():
 # common_scanner()
 
 # Function to scan ranges of ports
-def custom__port_scanner():
+def custom_port_scanner():
 
 # Add two variables to specify ranges of ports to scan
 port_a = input("Please enter a number: ")
