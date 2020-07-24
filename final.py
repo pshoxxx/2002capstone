@@ -128,11 +128,11 @@ def common_port_scanner():
 # common_scanner()
 
 # Function to scan ranges of ports
-def custom__port_scanner():
+def custom_port_scanner():
 
 # Add two variables to specify ranges of ports to scan
-port_a = input("Please enter a number: ")
-port_b = input("Please enter a number: ")
+    port_a = input("Please enter a number: ")
+    port_b = input("Please enter a number: ")
 # Ask for input
     remoteServer    = input("Enter a remote host to scan: ")
     remoteServerIP  = socket.gethostbyname(remoteServer)
@@ -150,7 +150,7 @@ port_b = input("Please enter a number: ")
     # We also put in some error handling for catching errors
 
     try:
-        for port in range(port_a, port_b + 1):
+        for port in range(int(port_a), int(port_b)+1):
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             result = sock.connect_ex((remoteServerIP, port))
             if result == 0:
